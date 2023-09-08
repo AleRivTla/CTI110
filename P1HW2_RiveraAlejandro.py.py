@@ -34,11 +34,11 @@ if total_expenses > budget:
 else:
   print("------Travel Expenses------")
   print("Location:", location)
-  print(f"Initial budget: {budget:.2f}")
-  print(f"Fuel: {gas:.2f}")
-  print(f"Accommodation: {accommodation:.2f}")
-  print(f"Food: {food:.2f}")
+  print(f"Initial budget: ${budget:.2f}")
+  print(f"Fuel: ${gas:.2f}")
+  print(f"Accommodation: ${accommodation:.2f}")
+  print(f"Food: ${food:.2f}")
   print("")
   # subtract total expenses from budget
-  print(f"Remaining balance: {budget - total_expenses:.2f}")
+  print(f"Remaining balance: ${budget - total_expenses:.2f}")
 
