@@ -11,7 +11,7 @@ day2 = int(input())
 print("Day 3: ", end="")
 day3 = int(input())
 """
-# New version - loop abd get each day at a time
+# New version - loop and get each day at a time
 data = [] # empty list
 num_days = int(input("How many days? "))
 for day in range(num_days):
@@ -29,6 +29,7 @@ print("Worst day: ", min(data))
 total = sum(data)
 average = total / num_days
 print("The average amount of Pokemans caught daily is: ", average)
+
 # TODO: Graph the real data
 fig, ax = plt.subplots()
 ax.plot(range(num_days), data)
