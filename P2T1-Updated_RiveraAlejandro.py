@@ -21,6 +21,14 @@ for day in range(num_days):
   
 # put the data in a list(DONE)
 
+#print min and max
+print("Best day: ", max(data))
+print("Worst day: ", min(data))
+
+# don't to total and average yet
+total = sum(data)
+average = total / num_days
+print("The average amount of Pokemans caught daily is: ", average)
 # TODO: Graph the real data
 fig, ax = plt.subplots()
 ax.plot(range(num_days), data)
